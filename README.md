@@ -1,11 +1,15 @@
-run_analysis.R downloads accellerometer data, cleans it, and leaves two datasets in your environment.
+run_analysis.R downloads accellerometer data, cleans it, and leaves two datasets in your environment.  The second dataset is also written to disk for review
 
 cleaned.data contains the mean and standard deviations of measurements from of several sensors of a variety of people (Subject) performing a variety of activities (Activity).
+
+average.data contains the average mean and average standard deviations of the measurements grouped by Subject and Activity
 
 The original data can be found at
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-The data was filtered to contain just the mean and standard deviations, and then summarized by Subject and Activity.  A more full description from the original creators is given below, and an even more full description is available in the zip file that is downloaded by run_analysis.R
+The data was filtered to contain just the mean and standard deviations of the measurements and then further summarized to give the average mean and average standard deviation, grouped by Subject and Activity
+
+A more full description from the original creators is given below, and an even more full description is available in the zip file that is downloaded by run_analysis.R
 
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
